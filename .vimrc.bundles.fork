@@ -1,4 +1,4 @@
-"Bundle 'rodjek/vim-puppet'
+Bundle 'fsalum/Puppet-Syntax-Highlighting'
 Bundle 'tpope/vim-git'
 Bundle 'vim-ruby/vim-ruby'
 Bundle 'ervandew/supertab'

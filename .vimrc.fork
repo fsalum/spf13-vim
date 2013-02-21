@@ -1,3 +1,5 @@
 " Fix Python issue on Mac
 " https://github.com/spf13/spf13-vim/issues/176
 let $PYTHONHOME='/System/Library/Frameworks/Python.framework/Versions/Current'
+
+UnBundle 'Puppet-Syntax-Highlighting'
