@@ -3,3 +3,6 @@
 let $PYTHONHOME='/System/Library/Frameworks/Python.framework/Versions/Current'
 
 UnBundle 'Puppet-Syntax-Highlighting'
+
+set clipboard=unnamed "Fix for Mac to allow copy in visual mode to clipboard"
+set virtualedit=      "Back to original mode"
