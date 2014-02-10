@@ -113,7 +113,8 @@
     " Snippets & AutoComplete
         if count(g:spf13_bundle_groups, 'snipmate')
             Bundle 'garbas/vim-snipmate'
-            Bundle 'honza/snipmate-snippets'
+            Bundle 'honza/vim-snipmate'
+            Bundle 'honza/vim-snippets'
             " Source support_function.vim to support snipmate-snippets.
             if filereadable(expand("~/.vim/bundle/snipmate-snippets/snippets/support_functions.vim"))
                 source ~/.vim/bundle/snipmate-snippets/snippets/support_functions.vim
@@ -121,7 +122,8 @@
         elseif count(g:spf13_bundle_groups, 'neocomplcache')
             Bundle 'Shougo/neocomplcache'
             Bundle 'Shougo/neosnippet'
-            Bundle 'honza/snipmate-snippets'
+            Bundle 'honza/vim-snipmate'
+            Bundle 'honza/vim-snippets'
         endif
 
     " PHP

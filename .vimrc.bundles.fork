@@ -1,4 +1,5 @@
-Bundle 'fsalum/Puppet-Syntax-Highlighting'
 Bundle 'tpope/vim-git'
 Bundle 'vim-ruby/vim-ruby'
 Bundle 'ervandew/supertab'
+Bundle 'saltstack/salt-vim'
+Bundle 'rodjek/vim-puppet'
